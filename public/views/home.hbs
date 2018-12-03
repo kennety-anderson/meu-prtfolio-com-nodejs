@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-social.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!--cabeçalho da pagina com jumbotron e efeito maquina de escrever-->
+    {{!-- <div class="jumbotron" id="jumbotron"></div> --}}
+<section class="header-site" id="inicio">
+
+        <div class="container-fluid">
+
+            <header class="text-center">
+                <h2 class="text-primary" data-header=""></h2>
+            </header>
+
+        </div>
+
+</section>
+    {{!-- </div> --}}
+
+    <!--nav-bar responsivo pegajoso-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top" id="nav">
+
+        <div class="mx-auto d-lg-flex d-block flex-lg-nowrap">
+
+            <a class="navbar-brand ml-3 mr-3 my-2 text-primary" id="titulo" href="#inicio">inicio</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+
+            <div class="collapse navbar-collapse text-center" id="navbarSite">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item ml-5 mr-5 my-2">
+                        <a class="nav-link text-primary" href="#sobre">Sobre</a>
+                    </li>
+
+                    <li class="nav-item ml-5 mr-5 my-2">
+                        <a class="nav-link text-primary" href="#projetos">Projetos</a>
+                    </li>
+
+                    <li class="nav-item ml-5 mr-5 my-2">
+                        <a class="nav-link text-primary" href="#habilidades">Habilidades</a>
+                    </li>
+
+                    <li class="nav-item ml-5 mr-5 my-2 ">
+                        <a class="nav-link text-primary " href="#contato">Contato</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!--corpo da pagina elemento sobre-->
+
+<div id="sobre"></div>
+
+    <div class="container" id="div-minha-foto">
+
+            <div class="d-flex justify-content-center">
+                <img src="kennety1.jpeg" class="img-responsive" alt="" id="minha-foto">
+            </div>
+
+    </div>
+
+    <div class="container" id="sobre-min">
+
+        <div class="row">
+
+            <div class="col-sm-12">
+
+                <div class="texto" data-anime="top">
+
+                    <h2 id="nome"> Kennety Anderson Coelho Duarte</h2>
+
+                        <p class="lead"> Me chamo Kennety tenho 21 anos, sou nascido em sp capital
+                            atualmente sou bolsista cursando analise e desenvolvimento de sistemas
+                            na faculdade FMU no polo liberdade, comecei nesse universo
+                            da tecnologia esse ano inicialmente por causa de uma oportunidade de trabalho
+                            como suporte tecnico onde eu tinha que aprender algumas coisas 
+                            e assim comecei aprendo sobre o sistema operacional
+                            linux e tomei  um grande interesse pela programção web em ambos os lados de atuação,
+                            tanto back-end como front-end, buscando conhecimento na linguagem javascript
+                            hoje busco uma oportunidade de mostrar e aplicar o que venho estudando
+                            em todo o meu tempo livre, com o fim de aprimorar meu conhecimento
+                            e minha produtividade, ganhando uma experincia tanto profissional
+                            como pessoal para minha vida e carreira.
+                        </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="row" id="dados">
+
+            <div class="col-sm-12">
+
+                <ul>
+
+                     <li>
+                            
+                         <p class="lead"><a href="https://www.google.com.br/maps/place/Suzano+-+Palmeiras+de+S%C3%A3o+Paulo,+Suzano+-+SP/@-23.614113,-46.460101,11z/data=!3m1!4b1!4m5!3m4!1s0x94ce7176a5cf4309:0x7678f276a368e6e2!8m2!3d-23.5453209!4d-46.311625"><i class="fas fa-map-marker-alt" style="font-size:25px;"></i> &nbsp; Suzano-SP</a></p>
+
+                    </li>
+
+                    <li>
+
+                        <p class="lead"><i class="fas fa-calendar-alt" style="font-size:25px"></i> &nbsp; 07/09/1998</p>
+
+                    </li>
+
+                    <li>
+                            
+                        <p class="lead"><i class="fas fa-envelope" style="font-size:25px"></i> &nbsp; kennetyg79@gmail.com</p>
+
+                    </li>
+
+                    <li>
+
+                        <p class="lead"><a href="https://github.com/kennety-anderson"><i class="fab fa-github" style="font-size:25px"></i> &nbsp; https://github.com/kennety-anderson</a></p>
+
+                    </li>
+
+                     <li>
+
+                        <p class="lead"><i class="fas fa-phone" style="font-size:25px;"></i> &nbsp; (11)996016775</p>
+
+                    </li>
+
+                 </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="projetos"></div>
+
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-sm-6">
+
+            <div class="card" style="width: 18rem;">
+
+                <img class="card-img-top" src="Captura de tela de 2018-12-02 22-04-54.png" alt="Card image cap">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Site Yesgua</h5>
+                    <p class="card-text">Esse é um site de roupas evangelicas sobe encomendas que conta com algumas fotos dos produtos.
+                        <br>
+                        <b>Obs: Site ainda esta em desenvolvimento.</b>
+                    </p>
+                    <a href="https://site-yeshua.herokuapp.com/" class="btn btn-primary">Ver projeto</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+         <div class="col-sm-6">
+
+            <div class="card" style="width: 18rem;">
+
+                <img class="card-img-top" src="Captura de tela de 2018-12-02 21-40-19.png" alt="Card image cap">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Banco digital</h5>
+                    <p class="card-text">Esse é um pequeno projeto de um banco digital, com o objetivo de aprendizado para manipulação do DOM e simular um banco virtual.
+                        <br>
+                        <b>Obs: Esse projeto não possui nada de banco de dados.</b>
+                    </p>
+                    <a href="https://banco-digital.herokuapp.com/" class="btn btn-primary">Ver projeto</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+    <!--slides-->
+
+    <div id="container-slides">
+
+        {{!-- <div id="fotos" class="container" data-anime="top"> --}}
+
+            <div id="slides" class="carousel slide" data-ride="carousel" data-anime="top">
+
+                <ol class="carousel-indicators">
+
+                    <li data-target="#slides" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides" data-slide-to="1"></li>
+                    <li data-target="#slides" data-slide-to="2"></li>
+                    <li data-target="#slides" data-slide-to="3"></li>
+
+                </ol>
+
+                <div class="carousel-inner ">
+
+                    <div class="carousel-item active">
+                        <img src="captura.jpeg" class="img-fluid d-block">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="Captura de tela de 2018-12-02 15-44-20.png" class="img-fluid d-block">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="Captura de tela de 2018-12-02 21-40-19.png" class="img-fluid d-block" alt="Max-width 100%">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="Captura de tela de 2018-12-02 21-49-05.png" class="img-fluid d-block" alt="Max-width 100%">
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Anterior</span>
+
+                </a>
+
+                <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Proximo</span>
+
+                </a>
+
+            </div>
+
+        {{!-- </div> --}}
+
+    </div>
+
+    <div id="habilidades"></div>
+
+<section class="skills" data-anime="top">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-12">
+                <h2 class="text-center">Habilidades</h2>
+            </div>
+
+            <div class="col-sm-6">
+
+                <ul>
+
+                    <li>
+                        <h4> <b>html </b> &nbsp; <font size="4">85%</font> </h4><span data-bar="" class="bar-html"><span class="html"></span></span>
+                    </li>
+
+                    <li>
+                        <h4> <b>css </b> &nbsp; <font size="4">65%</font> </h4><span data-bar="" class="bar-css"><span class="css"></span></span>
+                    </li>
+
+                    <li>
+                        <h4> <b>bootstrap </b> &nbsp; <font size="4">80%</font> </h4><span data-bar="" class="bar-bootstrap"><span class="bootstrap"></span></span>
+                    </li>
+
+                </ul>
+
+        </div>
+
+            <div class="col-sm-6">
+
+                <ul>
+
+                     <li>
+                        <h4> <b>javascript </b> &nbsp; <font size="4">80%</font></h4><span data-bar="" class="bar-javascript"><span class="javascript"></span></span>
+                    </li>
+
+                    <li>
+                        <h4> <b>nodejs </b> &nbsp; <font size="4">50%</font></h4><span data-bar="" class="bar-nodejs"><span class="nodejs"></span></span>
+                    </li>
+
+                    <li>
+                        <h4> <b>express </b> &nbsp; <font size="4">60%</font></h4><span data-bar="" class="bar-express"><span class="express"></span></span>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<div id="contato"></div>
+
+    <section class="contato">
+
+        <div class="container">
+
+            <form action="/send" method="POST">
+
+                <div class="row">
+
+                    <div class="col-sm-12">
+                        <h2 id="title-contact" class="text-center">Contato</h2>
+                    </div>
+
+                    <div class="col-sm-6">
+
+                        <div class="form-group">
+
+                            <label for="Nome">Nome</label>
+                            <input type="text" class="form-control" id="Nome" name="nome" placeholder="Digite seu nome" required>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="Email">Email</label>
+                            <input type="email" class="form-control" id="Email" name="email" aria-describedby="emailHelp" placeholder="Digite seu email" required>
+                            {{!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
+
+                        </div>
+
+                    </div>
+
+  {{!-- <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div> --}}
+
+
+                    <div class="col-sm-6">
+
+                        <div class="form-group">
+
+                            <label for="Mensagem">Mensagem</label>
+                            <textarea class="form-control" id="Mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-12">
+
+                        <button type="submit" class="btn btn-primary" id="button">Enviar</button>
+                        
+                        {{{ajuda}}}
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    {{!-- <section class="bg-dark"> --}}
+
+        <footer class="bg-dark">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-sm-5">
+                        <p class="lead text-center text-primary">Site production Kennety Anderson</p>
+                    </div>
+
+                     <div class="col-sm-2">
+
+                        <a class="btn btn-social-icon btn-primary" href="https://github.com/kennety-anderson" style="border-radius: 15px; background-color">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="col-sm-5">
+                        <p class="lead text-center text-primary">Tel: (11)996916775</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    {{!-- </section> --}}
+
+    <script type="text/javascript" src="arquivo.js "></script>
+
+</body>
+
+</html>

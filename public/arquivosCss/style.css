@@ -1,0 +1,397 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*cabeçalho da pagina com jumbtron com imagem*/
+
+/* .jumbotron {
+    height: 100% !important;
+    width: 100% !important;
+    margin-bottom: 0;
+    background-image: url(technology-785742_1920.jpeg);
+    background-position: relative;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} */
+
+.header-site {
+    background-image: url(technology-785742_1920.jpeg);
+    max-height: 50%;
+    height: 70%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 570px;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+/* definir o tamanho maximo da largura do container*/
+
+.container-fluid {
+    max-width: 560px;
+    margin: auto;
+}
+
+
+/* criação e animção do cursor */
+
+[data-header] {
+    opacity: 1;
+}
+
+[data-header]::after {
+    content: '|';
+    color: white;
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+
+/* definição dos tamanhos do titulo e subtitulo */
+
+h1 {
+    font-size: 300% !important;
+    /* opacity: 0.8;*/
+}
+
+/* #nome {
+    opacity: 0.8;
+} */
+
+h2 {
+    font-size: 280% !important;
+    opacity: 0.7;
+}
+
+
+/* menu de navegação*/
+
+#titulo {
+    padding-top: 9px;
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+#nav {
+    margin-top: 0%;
+}
+
+.nav-link {
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+#minha-foto {
+
+    border: 3px solid #007bff;
+        /* margin-left: 40%; */
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+/* minha foto */
+
+/* #minha-foto {
+    border-radius: 50%;
+    max-height: 20%;
+    max-width: 20%;
+    border: 3px solid #007bff;
+    margin-left: 40%;
+    /* margin-right: 35%; */
+    /* width: 30%; 
+}
+
+/* about */
+
+#sobre {
+    height: 100px;
+}
+
+.texto {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 8%;
+}
+
+#nome {
+    padding-top: 7%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#dados ul {
+    margin-left: 12%;
+}
+
+#sobre-min li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: inherit;
+}
+
+
+/* efeito de scroll da pagina*/
+
+[data-anime] {
+    opacity: 0;
+    transition: .7s;
+}
+
+[data-anime="top"] {
+    transform: translate3d(0px, 100px, 0px);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+/*slides*/
+
+#projetos{
+    height: 100px;
+}
+
+.img-fluid {
+    min-width: 100%;
+    background-size: cover;
+    max-height: 50%;
+    width: 100%;
+    height: 500px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.card {
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* skills */
+
+#habilidades {
+    height: 100px;
+}
+
+.skills {
+    /* font-family: fantasy; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.skills h2 {
+    margin-bottom: 50px;
+}
+
+.skills li{
+    list-style: none;
+    padding: 5px;
+}
+
+.skills li h4 {
+    font-family: sans-serif;
+}
+
+
+/* .skills p:nth-child(2) {
+    float: right;
+    position: relative;
+    top: -37px;
+} */
+
+[data-bar] {
+    background: #353b48;
+    display: block;
+    height: 6px;
+    border: 1px solid rgba(0,0,0,0,3);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+
+.bar-html span {
+    height: 6px;
+    float: left;
+    background: #ff4500;
+}
+
+.html {
+    width: 85%;
+    animation: html 2s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+
+.bar-css span {
+    height: 6px;
+    float: left;
+    background: #2704e2;
+}
+
+.css {
+    width: 65%;
+    animation: css 2s;
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+.bar-bootstrap span {
+    height: 6px;
+    float: left;
+    background: #bf40bf;
+}
+
+.bootstrap {
+    width: 80%;
+    animation: bootstrap 2s;
+}
+
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+
+.bar-javascript span {
+    height: 6px;
+    float: left;
+    background: #fff200;
+}
+
+.javascript {
+    width: 80%;
+    animation: javascript 2s;
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.bar-nodejs span {
+    height: 6px;
+    float: left;
+    background: #7cfc00;
+}
+
+.nodejs {
+    width: 50%;
+    animation: nodejs 2s;
+}
+
+@keyframes nodejs {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+
+.bar-express span {
+    height: 6px;
+    float: left;
+    background: #c0c0c0;
+}
+
+.express {
+    width: 60%;
+    animation: express 2s;
+}
+
+@keyframes express {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 6%;
+    }
+}
+
+
+
+/* formulario */
+
+#contato {
+    height: 100px;
+}
+
+form {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#title-contact {
+    margin-bottom: 3%;
+}
+
+#Mensagem {
+    height: 125px;
+    margin-bottom: 15px;
+}
+
+#button {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 2%;
+    font-size: 25px;
+}
+
+/* footer */
+
+footer {
+    
+    padding: 20px;
+    /* width: 100%; */
+}
