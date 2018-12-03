@@ -34,4 +34,4 @@ mongoose.connect('mongodb://localhost:27017/mySite', {
 });
 
 
-app.listen(3000, () => console.log(`Servidor rodando na porta 3000`.cyan));
+app.listen(port, () => console.log(`Servidor rodando na porta ${port}`.cyan));
