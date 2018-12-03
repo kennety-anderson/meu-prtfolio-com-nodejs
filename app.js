@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const colors = require('colors');
-const port = process.env.POER || 3000 || 8080;
+const port = process.env.PORT || 3000 || 8080;
 const app = express();
 
 app.set('view engine', 'hbs');
